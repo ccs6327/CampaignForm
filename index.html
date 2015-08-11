@@ -1,8 +1,89 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Retailigence Campaign Information Form</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 </head>
 <body>
+	<div class = "container">
+		<div class = "row" id = "title">
+			<h1 align = "center">Retailigence Campaign Information Form</h1>
+		</div>
+		<div class = "row" id = "main">
+			<h3>With Media or without?</h3>
+			<p>Will we need to serve media such as images?</p>
+			<form>
+				<input type = "radio" name = "media" value = "With Media (AdPop)"> With Media (AdPop)
+				<br>
+				<input type = "radio" name = "media" value = "Without Media (API)"> Without Media (API)
+			</form>
+			<br>
+			<h3>Geo Targeting</h3>
+			<p>Will this campaign require Geo Targeting?</p>
+			<form>
+				<input type = "radio" name = "geoTargeting1" value = "Yes"> Yes
+				<br>
+				<input type = "radio" name = "geoTargeting1" value = "No"> No
+			</form>
+			<br>
+			<p>Will this geo targeting be based on in-store product availability?</p>
+			<form>
+				<input type = "radio" name = "geoTargeting2" value = "Yes"> Yes
+				<br>
+				<input type = "radio" name = "geoTargeting2" value = "No"> No
+			</form>
+			<br>
+			<p>If yes, will the client be accessing the data through API or Data file ?<br>
+			Will the client be accessing our API for geo-targeting or will we be providing them with a list of locations on a regular basis?</p>
+			<form>
+				<input type = "radio" name = "geoTargeting3" value = "API">API
+				<br>
+				<input type = "radio" name = "geoTargeting3" value = "Data file">Data file
+			</form>
+			<br>
+			<p>If Data File, what frequency will they need the information?</p>
+			<form>
+				<input type = "radio" name = "geoTargeting4" value = "Just at the beginning of the campaign">Just at the beginning of the campaign
+				<br>
+				<input type = "radio" name = "geoTargeting4" value = "Daily">Daily
+				<br>
+				<input type = "radio" name = "geoTargeting4" value = "Weekly">Weekly
+				<br>
+				<input type = "radio" name = "geoTargeting4" value = "Other">Other [textfield]
+			</form>
+			<br>
+			<h3>Path to Purchase Creative</h3>
+			<p>Path to Purchase Creative?*<br>
+			Will Retailigence need to provide creative media to support his campaign?</p>
+			<form>
+				<input type = "radio" name = "purchaseCreative1" value = "Yes">Yes
+				<br>
+				<input type = "radio" name = "purchaseCreative1" value = "No">No
+			</form>
+			<br>
+			<p>If Yes, what information will be required?</p>
+			<form>
+				<input type = "checkbox" name = "purchaseCreative2" value = "Product Price">Product Price
+				<br>
+				<input type = "checkbox" name = "purchaseCreative2" value = "Product Image">Product Image
+				<br>
+				<input type = "checkbox" name = "purchaseCreative2" value = "Store Location Information">Store Location Information
+				<br>
+				<input type = "checkbox" name = "purchaseCreative2" value = "Store Phone Number">Store Phone Number
+				<br>
+				<input type = "checkbox" name = "purchaseCreative2" value = "Other">Other: [textfield]
+				<br>
+			</form>
+			<br>
+			<p>Post-Click Path-to-Purchase Guidance?*</p>
+			<form>
+				<input type = "radio" name = "purchaseCreative1" value = "Yes">Yes
+				<br>
+				<input type = "radio" name = "purchaseCreative1" value = "No">No
+			</form>
+			<br>
+		</div>
+	</div>
 
 </body>
 </html>
